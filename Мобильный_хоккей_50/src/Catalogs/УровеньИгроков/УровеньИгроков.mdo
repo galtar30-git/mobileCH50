@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3172105-5ff4-4470-b534-8c2239f7c3a1">
+  <producedTypes>
+    <objectType typeId="79559ccc-74e4-49ce-bcd0-6f92aa396ff9" valueTypeId="3e88ecb1-a0ac-4781-a438-6db22081583b"/>
+    <refType typeId="b7b783fa-b619-4743-b3a2-ef3ed7935847" valueTypeId="2d38c207-43db-4851-8d28-fdbbb6e255fa"/>
+    <selectionType typeId="375f5eb6-0662-4c63-a643-59afd1d2b2d1" valueTypeId="299890f0-6823-4461-86fa-76444f8993e0"/>
+    <listType typeId="3a7d4bab-6fca-4048-80f1-576a30023cc3" valueTypeId="e265c6f5-9811-4509-bd9f-e7fc1235e30e"/>
+    <managerType typeId="1b8b632e-f5a1-4e9d-abc5-ab1854ec9b86" valueTypeId="5c636402-c67b-443b-b1ff-1f33825cf389"/>
+  </producedTypes>
+  <name>УровеньИгроков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровень игроков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УровеньИгроков.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УровеньИгроков.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ccf44cd1-dcb8-4cb0-876c-f8a7637b941c">
+      <name>Проф</name>
+      <description>Профессионал</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="5cbb045d-8c12-4a26-8107-4aa503277ede">
+      <name>Школьник</name>
+      <description>Школьник</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="a76efc3a-e127-49c9-8f68-4480a3d46f9a">
+      <name>Любитель</name>
+      <description>Любитель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="8619efdd-b483-4a32-83ce-ff234d9620b7">
+      <name>ЛюбительПлюс</name>
+      <description>Любитель +</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="30e79bae-067e-4f90-b824-b8dffdb3dee2">
+      <name>ЛюбительМинус</name>
+      <description>Любитель минус</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="9a541d6f-c04a-4605-b66a-7c116bb2d71b">
+      <name>Начинающий</name>
+      <description>Начинающий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

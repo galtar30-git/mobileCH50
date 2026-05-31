@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2932ede-6cda-42ec-adb9-dab01baebad5">
+  <producedTypes>
+    <refType typeId="7899ee59-7831-4ea2-a87c-30df095954d3" valueTypeId="ea382ed4-1fe2-4b5d-a26d-9170fbd4ca41"/>
+    <listType typeId="b819fb40-c5a3-416e-a412-ed9be3262f7d" valueTypeId="3c50ed93-e229-4e3e-a0ff-6478bb47f4e8"/>
+    <managerType typeId="0f3cd8b0-16bf-436d-845d-4c8cd6a7577e" valueTypeId="6f43a6e0-dd0c-4107-bf22-9b58abf64b17"/>
+  </producedTypes>
+  <name>Амплуа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Амплуа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2cf8f61f-b23f-4b05-9f77-6a797b352d24">
+    <name>Нападающий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нападающий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66096dfd-dbb7-4dac-b8aa-9f27f83c9cac">
+    <name>Защитник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Защитник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d84a78b5-0898-496a-b939-82777289680d">
+    <name>Вратарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вратарь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="831f002e-104e-4f2b-8ee6-7210e3a66bab">
+    <name>Универсал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

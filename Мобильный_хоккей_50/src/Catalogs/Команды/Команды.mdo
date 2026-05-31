@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c2beec2-7d00-4f9c-bda5-c92bc94a48bd">
+  <producedTypes>
+    <objectType typeId="d248c0d1-b12e-4caf-b99f-40b265a03316" valueTypeId="b2ffc2f5-f02e-4d7a-8abc-b6e6b10a523f"/>
+    <refType typeId="39da0d57-69e9-46a8-99bc-8ee15c564572" valueTypeId="39ea8f84-463f-48d3-8a7b-c884d8a31577"/>
+    <selectionType typeId="2134c36b-3579-4a1f-a210-d141d518f2a2" valueTypeId="ed1cd474-b56d-46c7-8a14-8f0895a3191d"/>
+    <listType typeId="3baa487a-c94a-41a3-a053-0cbed8bf4d6c" valueTypeId="60685b9a-f8c8-4360-b97c-95a5f8ce2290"/>
+    <managerType typeId="134c7775-447b-4459-96d4-00f57effbae8" valueTypeId="b17faf97-f86a-42b2-a094-80aba904a6a0"/>
+  </producedTypes>
+  <name>Команды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды</value>
+  </synonym>
+  <comment>Команды</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Команды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Команды.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Команды</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Команды</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Команды</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Команды</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

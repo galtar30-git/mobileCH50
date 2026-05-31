@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a2e0e55-dfd5-4f91-986c-624237e2c6bc">
+  <producedTypes>
+    <objectType typeId="c74a4ae0-3baf-43a4-929f-474439806d82" valueTypeId="b71dcfa3-0854-4a79-addd-af6b64f13f00"/>
+    <refType typeId="029fee47-593d-4335-a481-fdbb97eba3f7" valueTypeId="85048f8a-a2c7-42b3-b7cb-a60a9e794d9b"/>
+    <selectionType typeId="3d5a3fcd-9db6-491e-959d-41de63469b35" valueTypeId="1a2a08ac-e2e6-490f-b203-ce74f7f2f351"/>
+    <listType typeId="dcd08977-d200-45f5-89ed-9d6653911361" valueTypeId="d86f39dc-ddaa-4c30-aab0-8b6cfbbf671a"/>
+    <managerType typeId="73e20ea4-215a-4e48-b8a0-c6905e1ff20c" valueTypeId="b82267c2-2d3a-4b14-a1b6-3b8094674b72"/>
+  </producedTypes>
+  <name>СписокНаИгру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список на игру</value>
+  </synonym>
+  <comment>Список на игру</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СписокНаИгру.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Список на игру</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Список на игру</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список на игру</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список на игру</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СписокНаИгру.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.СписокНаИгру.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="39746ff3-3e4f-4921-b3d5-c01c61658f4d">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Команды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e1be17f2-f905-43fc-9e56-f98ac6538294">
+    <name>Ледовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ледовый</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ледовые</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62004eef-2067-4155-bd54-36b76da09577">
+    <name>Оплатить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплатить</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2a7d81b7-d9cd-479d-8654-7ca62698eb36">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6de4772d-0e82-480b-ba4b-791301a63d7b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3f384df9-6470-47e4-bb5d-975c29e03c16">
+    <producedTypes>
+      <objectType typeId="a91f91e6-5fff-4d89-a9b4-56557401e515" valueTypeId="520f77bc-3dc1-4215-8a96-582b839eacd1"/>
+      <rowType typeId="a0718017-a2af-47ad-81fb-e23452df05e8" valueTypeId="bb8b3644-e033-4c03-9509-776e7c354172"/>
+    </producedTypes>
+    <name>ОсновнойСостав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной состав</value>
+    </synonym>
+    <attributes uuid="2cc7f75f-584e-444a-a949-b6b41563e894">
+      <name>Игрок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Игрок</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Игроки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b1d09bd8-2726-4d3e-b89d-802285f5f13c">
+      <name>Играл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Играл</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9662b30f-48d2-4588-ab23-adfeee42e27b">
+      <name>Замена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Замена</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2cd422e1-464b-48cc-abfa-b951465cdcd4">
+      <name>Оплата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оплата</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c4f1b807-a92a-4d54-87aa-3dfc257da99a">
+      <name>Баланс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Баланс</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="2583928a-cfbb-4970-91f2-f2490ca18429">
+    <producedTypes>
+      <objectType typeId="e5c0e12e-edad-4347-b607-1796b14a7c85" valueTypeId="8908af63-b247-47f6-ad2a-c038a627ee14"/>
+      <rowType typeId="346d6af1-96c0-4e37-ae6e-96b5ab141022" valueTypeId="a40e696d-b89d-4d28-b789-d60f2dbcbc01"/>
+    </producedTypes>
+    <name>Вратари</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вратари</value>
+    </synonym>
+    <attributes uuid="7cb3a81e-515e-4b8b-96dc-c73e2d1451f9">
+      <name>Игрок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Игрок</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Игроки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="f593cc4d-3654-4fca-a787-5ff44bfecbae">
+    <producedTypes>
+      <objectType typeId="bf6608d4-de95-4fc8-81bd-8c7dfcbf8956" valueTypeId="941c4e3c-cde9-4447-a5ea-cb7ad24dcc63"/>
+      <rowType typeId="3ccca433-238d-4388-99b7-34d6eba7e3ed" valueTypeId="618ce132-37ba-43a7-b96c-f4f6911afd91"/>
+    </producedTypes>
+    <name>Запасные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запасные</value>
+    </synonym>
+    <attributes uuid="01ad9abe-34b1-4e60-ab9c-4bce2f9fc1ad">
+      <name>Игрок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Игрок</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Игроки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

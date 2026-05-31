@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aea8c0f5-2234-4c2f-9901-6a0fb3adec77">
+  <producedTypes>
+    <objectType typeId="b08c7f3c-7158-440b-aeaa-963444bb5fb1" valueTypeId="52f87a10-8940-4de8-929b-8a0678fcc279"/>
+    <refType typeId="564f784c-9a59-4fb9-a18a-d1314b320203" valueTypeId="20a221a1-7169-4d6d-8837-5e7262a093c4"/>
+    <selectionType typeId="6806a9d3-e363-4fa9-b4b2-8c9fd31e336b" valueTypeId="9ae01218-c2d5-416d-8ef3-a505eb55f022"/>
+    <listType typeId="91823b3b-a263-416e-8357-29df6eaf0836" valueTypeId="614db9fe-02bd-49b0-8a1a-c1695a94c485"/>
+    <managerType typeId="ad083fa0-90dd-499a-b603-c97139a2d04a" valueTypeId="9d2c9fc3-2955-4f9c-a0bc-1e265b3ff465"/>
+  </producedTypes>
+  <name>Ледовые</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ледовые</value>
+  </synonym>
+  <comment>Ледовые</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ледовые.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Ледовые.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ледовые</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Ледовые</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ледовые</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Ледовые</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

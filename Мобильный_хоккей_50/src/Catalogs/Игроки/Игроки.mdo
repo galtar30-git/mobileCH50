@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6b5aea9-04d0-409c-9643-d4889bb1d5ed">
+  <producedTypes>
+    <objectType typeId="a34d390f-cdd7-4b3b-9d86-6711d526f5e9" valueTypeId="4c8c2e28-c3e6-4f82-99f7-4fe668f1a460"/>
+    <refType typeId="d4cecc89-73ec-41fd-aad2-2fb9c7d30872" valueTypeId="9223f37a-859e-4145-92bd-e24d5195589c"/>
+    <selectionType typeId="d011fc6b-b3fd-44bf-9683-083a685fc595" valueTypeId="ab614a69-6e66-45df-a6e2-351cea372bdc"/>
+    <listType typeId="d36733e8-50a6-4bce-aed6-480f04830c06" valueTypeId="9b3b7aef-ec5c-44df-9ed5-676906c27607"/>
+    <managerType typeId="b436b441-e489-455e-b5a0-015842398835" valueTypeId="5f7ba918-f8a0-4d56-89cb-95b411196fb0"/>
+  </producedTypes>
+  <name>Игроки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игроки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Игроки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Игроки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Игроки</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Игроки</value>
+  </extendedObjectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>64</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Игроки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Игроки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Игроки.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="e3acb2cc-61d1-4133-9270-3839d4d04799">
+    <name>НомерТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c0ce0f3-1cfc-49b9-8000-cd020263e9b9">
+    <name>Амплуа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Амплуа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Амплуа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c931a9c-c6aa-4c34-b477-295ba0205645">
+    <name>УровеньИгрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень игрока</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УровеньИгроков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ad6705dc-1bc0-4bc1-a868-b914cb288784">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b47fb61e-bfe0-4c98-afee-915a010ad6b0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="418f85b7-6c12-4aed-b7d3-eea0b5a7ef74">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
