@@ -85,6 +85,14 @@
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
           <extendedEditMultipleValues>true</extendedEditMultipleValues>
+          <format>
+            <key>ru</key>
+            <value>ДФ='dd.MM.yyyy HH:mm'</value>
+          </format>
+          <editFormat>
+            <key>ru</key>
+            <value>ДФ='dd.MM.yyyy HH:mm'</value>
+          </editFormat>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
